@@ -1,0 +1,11 @@
+@import 'bulma.css';
+
+#padtop {
+    padding-top: 250px;
+}
+
+#hero-img {
+    background-image: url('../img/hero.jpeg'); 
+    background-size: cover; 
+    background-blend-mode: soft-light;
+}

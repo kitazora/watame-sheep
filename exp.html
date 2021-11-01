@@ -1,51 +1,239 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="Watame is certainly best sheep. Support Watame.">
-        <title>Watame: Best Sheep</title>
-        <link rel="stylesheet" href="./assets/css/watamelon.css">
-        <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
-    </head>
-    <body>
-        <!-- WIP! -->
-        <div class="notification is-warning">
-            <p class="is-size-4">This site is currently under construction - <strong>what you see may not be representative of the final outcome.</strong></p>
-            <p class="subtitle">The current design is extremely unpolished so expect to find incomplete areas and broken elements!</p>
-          </div>
-        <!-- ナビブランド -->
-        <nav class="navbar" role="navigation" aria-label="main navigation">
-            <div class="navbar-brand">
-                <h1 class="title is-size-4 py-2 mx-2 my-2">Watame</h1>
-                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar_watame">
-                    <span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span>
-                </a>
-            </div>
 
-        <!-- ナビメニューバー -->
-            <div id="navbar_watame" class="navbar-menu">
-                <div class="navbar-start">
-                    <a href="#" class="navbar-item">Start</a>
-                    <hr class="navbar-divider">
-                    <a href="https://www.youtube.com/channel/UCqm3BQLlJfvkTsX_hvm0UmA" class="navbar-item">Show your support to Watame!</a>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Watame is certainly best sheep. Support Watame.">
+    <title>Watame: Best Sheep</title>
+    <link rel="stylesheet" href="./assets/css/watamelon.css">
+    <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <!-- WIP! -->
+    <div class="notification is-warning">
+        <p class="is-size-4">
+            This site is currently under construction - <strong>what you see may not be representative of the final
+                outcome.</strong>
+        </p>
+        <p class="subtitle">The current design is extremely unpolished so expect to find incomplete areas and broken
+            elements!</p>
+    </div>
+
+    <!--　ナビブランド　-->
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <h1 class="title is-size-4 px-1 py-1 mx-2 my-2">Watame</h1>
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar_watame">
+                <span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span>
+            </a>
+        </div>
+
+        <!--　ナビメニューバー　-->
+        <div id="navbar_watame" class="navbar-menu">
+            <div class="navbar-start">
+                <a href="#" class="navbar-item">Start</a>
+                <hr class="navbar-divider" />
+                <a href="https://www.youtube.com/channel/UCqm3BQLlJfvkTsX_hvm0UmA" class="navbar-item">Show your support
+                    to Watame!</a>
+            </div>
+        </div>
+    </nav>
+
+    <!--　カバー・ヒーロー　-->
+    <section class="hero is-dark is-link is-fullheight-with-navbar" id="hero-img">
+        <div class="container has-text-centered" id="padtop">
+            <div class="hero-body">
+                <div class="container">
+                    <h1 class="title is-size-1">Watame - your bestest sheep.</h1>
+                    <h2 class="subtitle has-background-warning-light has-text-black-bis is-size-4">Simply, the best
+                        sheep of
+                        all time.</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--　コンテンツ　-->
+
+    <!--　メトリック　-->
+    <div id="stats">
+        <nav class="level">
+            <div class="level-item has-text-centered">
+                <div class="block">
+                    <p class="heading">Subscribers</p>
+                    <p class="title">1.08M watamates</p>
+                </div>
+            </div>
+            <div class="level-item has-text-centered">
+                <div class="block">
+                    <p class="heading">Sheep doing wrong things</p>
+                    <p class="title">Never - always at 0</p>
+                </div>
+            </div>
+            <div class="level-item has-text-centered">
+                <div class="block">
+                    <p class="heading">Original songs</p>
+                    <p class="title">11 bangers</p>
                 </div>
             </div>
         </nav>
+    </div>
 
-        <!-- カバー・ヒーロー -->
-        <section class="hero is-dark is-link is-fullheight-with-navbar" id="hero-img">
-            <div class="container has-text-centered" id="padtop">
-                <div class="hero-body">
-                    <h1 class="title is-size-1 ">Watame - your bestest sheep.</p>
-                    <p class="subtitle has-background-warning-light has-text-black-bis is-size-4">Simply, the best sheep of all time.</p>
+    <!--　新機能　-->
+    <div class="columns is-centered is-mobile">
+        <div class="column has-text-centered is-one-fifth">
+            <p class="subtitle">Always innocent.</p>
+            <figure class="image is-128x128 is-inline-block">
+                <img class="is-rounded" src="./assets/img/innocent.jpg" alt="Watame is innocent!" />
+            </figure>
+            <div class="box">
+                <p>What could she do wrong anyway? <br><strong>She's incapable of evil.</strong></p>
+            </div>
+        </div>
+        <div class="column has-text-centered is-one-fifth">
+            <p class="subtitle has-text-centered">Extremely fluffy.</p>
+            <figure class="image is-128x128 is-inline-block">
+                <img class="is-rounded" id="crop" style="object-position: 0 10%" src="./assets/img/soft.jpg"
+                    alt="Watame is a very fluffy sheep!" />
+            </figure>
+            <div class="box">
+                <p>Pure soft bliss.<br>
+                    Always <strong>fuwa-fuwa</strong>.
+                </p>
+            </div>
+        </div>
+        <div class="column has-text-centered is-one-quarter">
+            <p class="subtitle">Respawns after 8 seconds.</p>
+            <figure class="image is-128x128 is-inline-block">
+                <img class="is-rounded" src="./assets/img/watame_a.jpg" alt="Watame can respawn after 8 seconds." />
+            </figure>
+            <div class="box">
+                <p>
+                    A target for many of her "predator" friends.<br>
+                    ~la lion~
+                </p>
+            </div>
+        </div>
+        <div class="column has-text-centered is-one-fifth">
+            <p class="subtitle">Eats potato chips.</p>
+            <figure class="image is-128x128 is-inline-block">
+                <img class="is-rounded" id="crop" src="./assets/img/herbivore.jpg" alt="Watame loves potato chips!" />
+            </figure>
+            <div class="box">
+                <p>A herbivore at heart. <br><strong>Certified</strong> Potato chip connoisseur.</p>
+            </div>
+        </div>
+    </div>
+
+    <!--　新機能 #2　-->
+    <section class="section">
+        <div class="container">
+            <div class="columns">
+                <div class="column is-5">
+                    <h1 class="title is-size-1-desktop is-size-3-mobile">
+                        It's a given fact that she is the best bard in town.
+                    </h1>
+                    <h2 class="subtitle">You know it's true...</h2>
+                    <div class="box">
+                        <p><strong>Fun fact:</strong><br>
+                            Her name is a pun on "Wata-Ame" 「綿飴」 which translates to "cotton candy" in Japanese. The
+                            beginning of Watame's first name, "Wata", translates to "cotton" 「綿」 in Japanese; cotton
+                            having
+                            a look and texture very similar to that of wool grown by and sheared from sheep. Her
+                            surname,
+                            Tsunomaki, comes from Tsuno 「角」which translates to "horn" and Maki 「巻」which can translate to
+                            "coil", related to her coiled sheep horns.
+                        </p>
+                    </div>
+                </div>
+                <div class="column">
+
+                </div>
+                <!--グリッド-->
+                <div class="columns is-gapless">
+                    <div class="column is-pulled-right">
+                        <figure class="image">
+                            <img src="./assets/img/sing.gif" id="resz" loading="lazy" alt="Watame is singing!">
+                        </figure>
+                        <figure class="image">
+                            <img src="./assets/img/sing.jpg" id="resz" alt="Watame singing again!">
+                        </figure>
+                    </div>
+                    <div class="column is-pulled-right">
+                        <figure class="image">
+                            <img src="./assets/img/watame_wide.jpg" id="resz" alt="Watame is very cute!">
+                        </figure>
+                        <figure class="image">
+                            <img src="./assets/img/watame_sm.jpg" id="resz" alt="Watame is cute :)">
+                        </figure>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!--　動画　-->
+
+
+    <!--　フッター　-->
+    <footer class="footer">
+        <div class="container">
+            <div class="columns">
+                <div class="column is-four-fifths">
+                    <span class="contributors">
+                        2021 Sorata Kitahara (kitazora).
+                    </span>
+                    <br>
+                    <br>
+                    A fan website made for the best sheep girl of all time, <strong><a
+                            href="https://www.youtube.com/channel/UCqm3BQLlJfvkTsX_hvm0UmA">Tsunomaki
+                            Watame</a></strong>.
+                    <br>
+                    <br>
+                    Created by a "Watamate" known as <a href="https://github.com/kitazora/">kitazora (Sorata
+                        Kitahara)</a>.
+                    <br>
+                    All images and content are owned by their respective rightholders and owners.
+                    <br>
+                    <br>
+
+                    <span class="disclaimer"><strong>watamemc.com</strong> and therefore<strong> Sorata
+                            Kitahara</strong> are not affiliated with Cover corporation or Hololive Production.</span>
+
+                    <div class="block">
+                        <p>
+                            <a href="https://github.com/kitazora/watame-sheep">Source Code</a> | Check out my Codestats
+                            profile:
+                            <a href="https://codestats.net/users/kitazora">kitazora</a>
+                        </p>
+                    </div>
+
+                </div>
+                <div class="column">
+                    <strong>Support Watame!</strong>
+                    <ul>
+                        <li>
+                            <a href="https://www.youtube.com/channel/UCqm3BQLlJfvkTsX_hvm0UmA">Watame's Channel</a>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com/channel/UCJFZiqLMntJufDCHc6bQixg">Hololive Channel</a>
+                        </li>
+                        <li>
+                            <a href="https://hololive.hololivepro.com/">Hololive Official Website</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
-        </section>
 
-        <!-- コンテンツ -->
+        </div>
+    </footer>
+</body>
 
-        <!-- フッター -->
-
-    </body>
 </html>

@@ -1,11 +1,52 @@
-@import 'bulma.css';
+@import "bulma.css";
 
 #padtop {
-    padding-top: 250px;
+  padding-top: 250px;
 }
 
 #hero-img {
-    background-image: url('../img/hero.jpeg'); 
-    background-size: cover; 
-    background-blend-mode: soft-light;
+  background-image: url("../img/hero.jpeg");
+  background-size: cover;
+  background-blend-mode: soft-light;
+}
+
+#stats {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#crop {
+  object-fit: cover;
+  object-position: center;
+  height: 128px;
+  width: 128px;
+}
+
+#resz{
+  display: block;
+  object-fit: cover;
+  object-position: center;
+  height: 256px;
+  width: 256px;
+}
+
+.columns {
+  padding-left: 2rem;
+}
+
+#uline {
+  text-decoration: underline double; 
+}
+
+#small-pad {
+  padding-top: 1.5rem;
+}
+
+#banner {
+  object-fit: cover;
+  object-position: 73%;
+  height: 100%;
+  width: 100%;
+  margin: 1.5rem;
+  padding: 2rem 1.5rem 2rem 1.5rem;
 }
